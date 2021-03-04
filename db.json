@@ -2,5 +2,5 @@
   "users": [
     { "id" : 1, "name" : "admin", "phoneNumber" : "081234567890", "password" : "admin123", "email" : "admin@gmail.com", "role" : "admin" },
     { "id" : 2, "name" : "user", "phoneNumber" : "081234567890", "password" : "user123", "email" : "user@gmail.com", "role" : "user" }
-  ]
+  
 }

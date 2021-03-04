@@ -1,6 +1,22 @@
 {
   "users": [
     { "id" : 1, "name" : "admin", "phoneNumber" : "081234567890", "password" : "admin123", "email" : "admin@gmail.com", "role" : "admin" },
-    { "id" : 2, "name" : "user", "phoneNumber" : "081234567890", "password" : "user123", "email" : "user@gmail.com", "role" : "user" }
+    { "id" : 2, "name" : "user", "phoneNumber" : "081234567890", "password" : "user123", "email" : "user@gmail.com", "role" : "user" },
+    { "id" : 2, "name" : "userb", "phoneNumber" : "081234567890", "password" : "user123", "email" : "user@gmail.com", "role" : "user" }
+  ],
+  
+  "room": [
+    { "id" : 1, "capacity" : 40 },
+    { "id" : 2, "capacity" : 40 }
+  ],
+  
+  "booking" : [
+    {"id" : 1, "roomId" : 1, "startTime": 15.00, "endTime": 17.00},
+    {"id" : 2, "roomId" : 2, "startTime": 11.00, "endTime": 13.00}
+  ],
+  
+  "bookingDetail" : [
+    { "id" : 1, "bookingId": 1},
+    { "id" : 2, "bookingId": 2}
   ]
 }

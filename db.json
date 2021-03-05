@@ -6,8 +6,8 @@
   ],
   
   "Room": [
-    { "id" : 1, "name" : "RoomA", "capacity" : 40, "roomType": "RoomTypeA" },
-    { "id" : 2, "name" : "RoomB", "capacity" : 40, "roomType": "roomTypeB" }
+    { "id" : 1, "name" : "RoomA", "capacity" : 40, "type": "RoomTypeA" },
+    { "id" : 2, "name" : "RoomB", "capacity" : 40, "type": "roomTypeB" }
   ],
   
   "Borrowing" : [

@@ -13,5 +13,5 @@
   "Borrowing" : [
     {"id" : 1, "roomId" : 1, "startTime": 15.00, "endTime": 17.00},
     {"id" : 2, "roomId" : 2, "startTime": 11.00, "endTime": 13.00}
-  ],
+  ]
 }

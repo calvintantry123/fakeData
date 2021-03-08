@@ -11,8 +11,8 @@
   ],
   
   "Borrowing" : [
-    {"id" : 1, "userId" : 2, "roomId" : 1, "startTime": 15::00, "endTime": 17.00},
-    {"id" : 2, "userId" : 3, "roomId" : 2, "startTime": 11.00, "endTime": 13.00}
+    {"id" : 1, "userId" : 2, "roomId" : 1, "startTime": "Mon, 15:00", "endTime": "Mon, 17.00"},
+    {"id" : 2, "userId" : 3, "roomId" : 2, "startTime": "Wed, 11.00", "endTime": "Wed, 13.00"}
   ],
   
   "facilities": [

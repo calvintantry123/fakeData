@@ -6,8 +6,26 @@
   ],
   
   "Room": [
-    { "id" : 1, "name" : "RoomA", "capacity" : 40, "type": "RoomTypeA" },
-    { "id" : 2, "name" : "RoomB", "capacity" : 40, "type": "roomTypeB" }
+    { "id" : 1, 
+      "name" : "RoomA", 
+      "capacity" : 40, 
+      "type": "RoomTypeA",
+      "facilities" : [
+        {"id": 1,
+        "roomId" : 1,
+        "name" : "Table"}
+      ]
+    },
+    { "id" : 2, 
+      "name" : "RoomB",
+      "capacity" : 40,
+      "type": "roomTypeB",
+      "facilities" : [
+         {"id": 2,
+          "roomId" : 2,
+          "name" : "Table"}
+       ]
+    }
   ],
   
   "Borrowing" : [
